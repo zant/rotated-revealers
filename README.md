@@ -1,1 +1,1 @@
-this repo is based on (this)[https://tympanus.net/Tutorials/RotatedRevealers/] demo of this (codrops's article)[https://tympanus.net/codrops/2019/04/18/how-to-create-and-animate-rotated-overlays/], it was made with react and react-spring for the animations
+this repo is based on [this](https://tympanus.net/codrops/2019/04/18/how-to-create-and-animate-rotated-overlays/) demo of this [codrops](https://tympanus.net/codrops/) article, i just really liked the transition and wanted to made it with react and react-spring
