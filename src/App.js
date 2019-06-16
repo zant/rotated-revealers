@@ -40,9 +40,9 @@ function App() {
 
   const trail = useTrail(letters.length, {
     config,
-    opacity: toggle ? 0 : 1,
-    x: toggle ? 40 : 0,
-    from: { opacity: 0, x: 20}
+    opacity: 1,
+    x: 0,
+    from: { opacity: 1, x: 0 }
   });
 
   const boundingBox = (w, h, angle) => [
@@ -94,7 +94,9 @@ function App() {
                     key={index}
                     style={{
                       ...rest,
-                      transform: x.interpolate(x => `translate3d(0, -${x}px, 0)`)
+                      transform: x.interpolate(
+                        x => `translate3d(0, -${x}px, 0)`
+                      )
                     }}
                   >
                     {letters[index]}
